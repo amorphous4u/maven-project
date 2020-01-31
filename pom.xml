@@ -183,7 +183,7 @@
         <scope>test</scope>
       </dependency>
 
-      <dependency>
+      <!--<dependency>
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest-core</artifactId>
         <version>1.2.1</version>
@@ -195,7 +195,7 @@
         <artifactId>hamcrest-library</artifactId>
         <version>1.2.1</version>
         <scope>test</scope>
-      </dependency>
+      </dependency>-->
 
       <dependency>
         <groupId>org.mockito</groupId>
@@ -206,12 +206,12 @@
     </dependencies>
   </dependencyManagement>
 
-  <scm>
+  <!--<scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
     <tag>HEAD</tag>
     <url>http://github.com/amorphous4u/maven-project</url>
-  </scm>
+  </scm>-->
 
   <prerequisites>
     <maven>3.0.3</maven>
